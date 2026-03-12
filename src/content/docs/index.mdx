@@ -1,0 +1,33 @@
+---
+title: Pelindung Bumi Docs
+description: Documentation for Pelindung Bumi.
+template: splash
+hero:
+  tagline: Simple documentation for Pelindung Bumi.
+  actions:
+    - text: Getting Started
+      link: /guides/getting-started/
+      icon: right-arrow
+    - text: GitHub
+      link: https://github.com/pelindung-bumi/peta
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+Pelindung Bumi Docs is a small documentation site for project information, notes, and references.
+
+## Explore
+
+<CardGrid stagger>
+	<Card title="Getting Started" icon="open-book">
+		Start with the main guide and learn how to work with this docs site.
+	</Card>
+	<Card title="Project Overview" icon="document">
+		Read a short summary of what this repository and docs site are for.
+	</Card>
+	<Card title="Repository" icon="github">
+		Follow updates and source changes on [GitHub](https://github.com/pelindung-bumi/peta).
+	</Card>
+</CardGrid>
