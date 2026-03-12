@@ -1,0 +1,9 @@
+.site-title img {
+	width: 2.5rem;
+	height: 2.5rem;
+	display: block;
+	border-radius: 999px;
+	object-fit: cover;
+	object-position: center;
+	border: 1px solid rgba(15, 23, 42, 0.12);
+}
