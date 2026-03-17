@@ -24,8 +24,18 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Operations',
+					items: [
+						{ label: 'Blog Operations', slug: 'operations/blog' },
+						{ label: 'Infrastructure Operations', slug: 'operations/infrastructure' },
+					],
+				},
+				{
 					label: 'Project',
-					autogenerate: { directory: 'reference' },
+					items: [
+						{ label: 'Project Overview', slug: 'reference/project-overview' },
+						{ label: 'Repositories', slug: 'reference/repositories' },
+					],
 				},
 			],
 		}),
